@@ -36,7 +36,7 @@ jobs:
 
       # Running all tests
       - name: Running tests
-        run: sudo python3 -m unittest discover -s ../../src -p 'test_*.py'
+        run: sudo python3 -m unittest discover -s ./src -p 'test_*.py'
 
       # Login against a Docker registry except on PR
       # https://github.com/docker/login-action
